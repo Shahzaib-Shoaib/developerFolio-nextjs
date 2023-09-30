@@ -1,7 +1,7 @@
 import './App.scss'
 import Main from '@/containers/Main'
 import Head from 'next/head'
-import "@fortawesome/fontawesome-free/css/All.css"
+import "@fortawesome/fontawesome-free/css/all.css"
 export default function Home() {
   return (
     <>

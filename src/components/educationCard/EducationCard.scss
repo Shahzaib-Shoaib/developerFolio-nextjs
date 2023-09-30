@@ -115,6 +115,10 @@
   .education-card {
     text-align: center;
   }
+  .education-card-left {
+    display: flex;
+    justify-content: center;
+  }
   .education-card-right {
     max-width: 100%;
   }

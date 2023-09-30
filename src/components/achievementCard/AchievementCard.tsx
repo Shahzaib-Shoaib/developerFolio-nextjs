@@ -1,14 +1,14 @@
 import React from "react";
 import "./AchievementCard.scss";
 
-export default function AchievementCard({cardInfo, isDark}:any) {
-  function openUrlInNewTab(url:any, name:any) {
+export default function AchievementCard({ cardInfo, isDark }: any) {
+  function openUrlInNewTab(url: any, name: any) {
     if (!url) {
       console.log(`URL for ${name} not found`);
       return;
     }
-    var win = window.open(url, "_blank");
-    win.focus();
+    window.open(url, '_blank')?.focus(); // okay also
+
   }
 
   return (

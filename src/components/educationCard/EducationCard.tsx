@@ -4,8 +4,8 @@ import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function EducationCard({ school }: any) {
-  const imgRef = createRef();
-console.log(school);
+  const imgRef = createRef<any>();
+  console.log(school);
 
   const GetDescBullets = ({ descBullets }: any) => {
     return descBullets

@@ -5,8 +5,9 @@ export default function AchivementCard({ cardInfo }: any) {
     if (!url) {
       return;
     }
-    var win = window.open(url, "_blank");
-    win.focus();
+
+    window.open(url, '_blank')?.focus(); // okay also
+
   }
 
   return (

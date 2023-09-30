@@ -3,7 +3,6 @@ import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 
 export default function ExperienceCard({ cardInfo, isDark }: any) {
-  console.log(cardInfo);
 
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef<any>();

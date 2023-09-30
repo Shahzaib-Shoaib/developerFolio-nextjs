@@ -24,9 +24,10 @@ import "./Main.scss";
 
 
 const Main = () => {
-    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+    // const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
 
-    const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+    const [isDark, setIsDark] = useState(true);
+
     const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
         useState(true);
 

@@ -326,6 +326,17 @@ const achievementSection = {
         },
       ],
     },
+    {
+      title: "Advanced React",
+      subtitle: "Completed Certification from Meta for Advanced React",
+      image: require("@/assets/images/ar.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/BS3XJ2YR27VH",
+        },
+      ],
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };

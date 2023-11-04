@@ -337,6 +337,18 @@ const achievementSection = {
         },
       ],
     },
+    {
+      title: "Principles of UX/UI Design",
+      subtitle:
+        "Completed Certification from Meta for Principles of UX/UI Design",
+      image: require("@/assets/images/uiux.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/2HNA6AS9K6LD",
+        },
+      ],
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };

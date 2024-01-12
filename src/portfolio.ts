@@ -179,24 +179,26 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section  // CHANGED!!!!!!!!!!!
   experience: [
-    // {
-    //   role: "Software Engineer",
-    //   company: "Facebook",
-    //   companylogo: require("./assets/images/facebookLogo.png"),
-    //   date: "June 2018 – Present",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    //   ]
-    // },
     {
-      role: "Front-End Developer",
+      role: "Web Developer",
+      company: "CodeSoft",
+      companylogo: require("@/assets/images/codsoft.png"),
+      date: "January 2024 – Present",
+      desc: "Remote / Virtual Internship",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // ],
+    },
+
+    {
+      role: "Front-End Web Developer",
       company: "Paintigo",
       companylogo: require("@/assets/images/logo-paintigo.png"),
       date: "January 2023 – Present",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Remote / Part Time",
     },
+
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -257,6 +259,22 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Meta Front-End Developer Specialization",
+      subtitle:
+        "Completed Professional Certification from Meta for Front-End Development ",
+      image: require("@/assets/images/mfed.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/KX4XKHR6G2CH",
+        },
+        {
+          name: "Badge",
+          url: "https://www.credly.com/badges/5a026671-675c-401e-92f0-39aeeec97a45/public_url",
+        },
+      ],
+    },
     {
       title: "The Fundamentals of Digital Marketing",
       subtitle:
@@ -345,7 +363,31 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "ghttps://www.coursera.org/account/accomplishments/certificate/2HNA6AS9K6LD",
+          url: "https://www.coursera.org/account/accomplishments/certificate/2HNA6AS9K6LD",
+        },
+      ],
+    },
+    {
+      title: "Front-End Developer Capstone",
+      subtitle:
+        "Completed Certification from Meta for Front-End Developer Capstone",
+      image: require("@/assets/images/fedc.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/VRAPTPE5QZ98",
+        },
+      ],
+    },
+    {
+      title: "Coding Interview Preparation",
+      subtitle:
+        "Completed Certification from Meta for Coding Interview Preparation",
+      image: require("@/assets/images/cip.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/458U9AAX3QSG",
         },
       ],
     },

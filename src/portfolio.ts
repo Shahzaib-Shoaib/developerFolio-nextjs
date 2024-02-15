@@ -278,6 +278,17 @@ const achievementSection = {
       ],
     },
     {
+      title: "Meta React Native Specialization",
+      subtitle: "Completed Specialization from Meta for React Native",
+      image: require("@/assets/images/mrns.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/4DCAN8X7XRYU",
+        },
+      ],
+    },
+    {
       title: "The Fundamentals of Digital Marketing",
       subtitle:
         "Completed Certification from Google Digital Garage for Fundamentals of digital marketing",
@@ -390,6 +401,78 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.coursera.org/account/accomplishments/certificate/458U9AAX3QSG",
+        },
+      ],
+    },
+    {
+      title: "Python for Data Science, AI & Development",
+      subtitle:
+        "Completed Certification from IBM for Python for Data Science, AI & Development",
+      image: require("@/assets/images/ibmpy.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/8N63CX84WSL7",
+        },
+        {
+          name: "Badge",
+          url: "https://www.credly.com/badges/c7217b13-7e45-46d6-bd42-333f72e24bb1/public_url",
+        },
+      ],
+    },
+    {
+      title: "Programming in Python",
+      subtitle: "Completed Certification from Meta for Programming in Python",
+      image: require("@/assets/images/pip.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/MC564ABQTLTT",
+        },
+      ],
+    },
+    {
+      title: "Introduction to Mobile Development",
+      subtitle:
+        "Completed Certification from Meta for Introduction to Mobile Development",
+      image: require("@/assets/images/imd.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/MG95GGJTXLDG",
+        },
+      ],
+    },
+    {
+      title: "React Native",
+      subtitle: "Completed Certification from Meta for React Native",
+      image: require("@/assets/images/rn.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/ZZAWWH9BRJUP",
+        },
+      ],
+    },
+    {
+      title: "Working with Data",
+      subtitle: "Completed Certification from Meta for Working with Data",
+      image: require("@/assets/images/wwd.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/VKTKUV76NQE2",
+        },
+      ],
+    },
+    {
+      title: "Capstone (React App)",
+      subtitle: "Completed Certification from Meta for Capstone (React App)",
+      image: require("@/assets/images/cra.jpeg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/R79JTWUTBEM7",
         },
       ],
     },

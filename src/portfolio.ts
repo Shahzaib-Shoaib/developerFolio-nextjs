@@ -25,7 +25,7 @@ const greeting = {
     "A passionate Front End Web Developer 🚀 having an experience of building Web and Mobile websites with JavaScript / Reactjs / Nodejs / Next.js  and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1M3XOZj8yfFtHFx_nxqy6YXK4nmejfBUl/view?usp=sharing", // Set to empty to hide the button
-  websiteLink: "https://fester-924622-portfolio.vercel.app/", // Set to empty to hide the button
+  websiteLink: "/websites", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 

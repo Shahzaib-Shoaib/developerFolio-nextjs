@@ -1,4 +1,40 @@
 export const websites = {
+  " React & Next JS Websites": [
+    {
+      imgClass: " oddImg ",
+      imgSrc: "/assets/captures/paintigo.png",
+      detailsClass: "oddDetails",
+      name: "Paintigo",
+      detail:
+        "Paintigo Website made with Next.js, Tailwind CSS and Shopify Storefront API.",
+      linkUrl: "https://www.paintigo.com/",
+    },
+    {
+      imgClass: " evenImg ",
+      imgSrc: "/assets/captures/fester-commerce.png",
+      detailsClass: "evenDetails",
+      name: " Fester Ecommerce Store",
+      detail:
+        "Fester Ecommerce Store made with Next.js, Tailwind CSS and Rest API. A project theme from themeforest.",
+      linkUrl: "https://babuska-924622.vercel.app/",
+    },
+    // {
+    //   imgClass: " oddImg ",
+    //   imgSrc: "/assets/captures/.png",
+    //   detailsClass: "oddDetails",
+    //   name: " ",
+    //   detail: "",
+    //   linkUrl: "",
+    // },
+    // {
+    //   imgClass: " evenImg ",
+    //   imgSrc: "/assets/captures/.png",
+    //   detailsClass: "evenDetails",
+    //   name: " ",
+    //   detail: "",
+    //   linkUrl: "",
+    // },
+  ],
   " FrontEnd Mentor Challenges": [
     {
       imgClass: " oddImg ",

@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import { StyleProvider } from "../../contexts/StyleContext";
 import "../../containers/Main.scss";
 import WebsiteContainer from "@/containers/websiteContainer/websiteContainer";
+import Head from "next/head";
 
 export default function WebsitesPage() {
   const [isDark, setIsDark] = useState(true);
@@ -14,6 +15,7 @@ export default function WebsitesPage() {
 
   return (
     <>
+      
       <div className={isDark ? "dark-mode" : ""}>
         <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
           <Header />

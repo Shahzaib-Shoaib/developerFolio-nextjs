@@ -54,7 +54,7 @@ export const websites = {
       detail:
         "Profile Card Component made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Profile-Card-Component/index.html",
+        "https://frontend-mentor-sites.netlify.app/profile-card-component/index.html",
     },
     {
       imgClass: " oddImg ",
@@ -74,7 +74,7 @@ export const websites = {
       detail:
         "Social Proof Section made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Social-Proof-Section/index.html",
+        "https://frontend-mentor-sites.netlify.app/social-proof-section/index.html",
     },
     {
       imgClass: "oddImg",
@@ -84,7 +84,7 @@ export const websites = {
       detail:
         "Article Preview Component made with HTML,CSS and JS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Article-Preview-Component/index.html",
+        "https://frontend-mentor-sites.netlify.app/article-preview-component/index.html",
     },
     {
       imgClass: " evenImg ",
@@ -94,7 +94,7 @@ export const websites = {
       detail:
         "Four Card Feature Section made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Four-Card-Feature-Section/index.html",
+        "https://frontend-mentor-sites.netlify.app/four-card-feature-section/index.html",
     },
     {
       imgClass: "oddImg",
@@ -114,7 +114,7 @@ export const websites = {
       detail:
         "Intro Component With Sign Up Form made with HTML,CSS and JS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Intro-Component-With-SignUp-Form/index.html",
+        "https://frontend-mentor-sites.netlify.app/intro-component-with-signUp-form/index.html",
     },
     {
       imgClass: "oddImg",
@@ -134,7 +134,7 @@ export const websites = {
       detail:
         "NFT Preview Card Component made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/NFT-Preview-Card-Component/index.html",
+        "https://frontend-mentor-sites.netlify.app/nft-preview-card-component/index.html",
     },
     {
       imgClass: "oddImg",
@@ -144,7 +144,7 @@ export const websites = {
       detail:
         "Ping Coming Soon Page made with HTML,CSS and JS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Ping-Coming-Soon-Page/index.html",
+        "https://frontend-mentor-sites.netlify.app/ping-coming-soon-page/index.html",
     },
     {
       imgClass: " evenImg ",
@@ -154,7 +154,7 @@ export const websites = {
       detail:
         "Huddle Landing Page made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Huddle-Landing-Page/index.html",
+        "https://frontend-mentor-sites.netlify.app/huddle-landing-page/index.html",
     },
     {
       imgClass: "oddImg",
@@ -164,7 +164,7 @@ export const websites = {
       detail:
         "QR Code Component made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/QR-Code-Component/index.html",
+        "https://frontend-mentor-sites.netlify.app/qr-code-component/index.html",
     },
     {
       imgClass: "evenImg",
@@ -174,13 +174,13 @@ export const websites = {
       detail:
         "Stats Preview Card made with HTML and CSS. A project idea from Frontend Mentor.",
       linkUrl:
-        "https://frontend-mentor-sites.netlify.app/Stats-preview-card-component/index.html",
+        "https://frontend-mentor-sites.netlify.app/stats-preview-card-component/index.html",
     },
   ],
   " Axiom Module A Projects": [
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/HTML-Form.png",
+      imgSrc: "/assets/captures/html-form.png",
       detailsClass: "oddDetails",
       name: "HTML Form",
       detail:
@@ -190,7 +190,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Seat-Selector.png",
+      imgSrc: "/assets/captures/seat-selector.png",
       detailsClass: "evenDetails",
       name: "Cinema Seat Selector",
       detail:
@@ -200,7 +200,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Custom-Video-Player.png",
+      imgSrc: "/assets/captures/custom-video-player.png",
       detailsClass: "oddDetails",
       name: "Custom Video Player",
       detail:
@@ -210,7 +210,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Exchange-Rate-Calculator.png",
+      imgSrc: "/assets/captures/exchange-rate-calculator.png",
       detailsClass: "evenDetails",
       name: "Exchange Rate Calculator",
       detail:
@@ -220,7 +220,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/DOM-Array.png",
+      imgSrc: "/assets/captures/dom-array.png",
       detailsClass: "oddDetails",
       name: "DOM Array",
       detail:
@@ -230,7 +230,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Landing-Page.png",
+      imgSrc: "/assets/captures/landing-page.png",
       detailsClass: "evenDetails",
       name: " Landing Page",
       detail:
@@ -240,7 +240,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Hangman.png",
+      imgSrc: "/assets/captures/hangman.png",
       detailsClass: "oddDetails",
       name: "Classic Hangman Game",
       detail:
@@ -249,7 +249,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Meal-Generator.png",
+      imgSrc: "/assets/captures/meal-generator.png",
       detailsClass: "evenDetails",
       name: " Meal Generator",
       detail:
@@ -259,7 +259,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Expense-Tracker.png",
+      imgSrc: "/assets/captures/expense-tracker.png",
       detailsClass: "oddDetails",
       name: "Expense Tracker",
       detail:
@@ -269,7 +269,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Music-Player.png",
+      imgSrc: "/assets/captures/music-player.png",
       detailsClass: "evenDetails",
       name: "Music Player",
       detail:
@@ -279,7 +279,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Infinite-Scrolling-App.png",
+      imgSrc: "/assets/captures/infinite-scrolling-app.png",
       detailsClass: "oddDetails",
       name: "Infinite Scrolling App",
       detail:
@@ -289,7 +289,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Typing-Game.png",
+      imgSrc: "/assets/captures/typing-game.png",
       detailsClass: "evenDetails",
       name: "Typing Game",
       detail:
@@ -299,7 +299,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Memory-Card.png",
+      imgSrc: "/assets/captures/memory-card.png",
       detailsClass: "oddDetails",
       name: "Memory Card",
       detail:
@@ -309,7 +309,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Web-to-Speech.png",
+      imgSrc: "/assets/captures/web-to-speech.png",
       detailsClass: "evenDetails",
       name: "Web to Speech",
       detail:
@@ -350,7 +350,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Tic-Tac-Toe.png",
+      imgSrc: "/assets/captures/tic-tac-toe.png",
       detailsClass: "oddDetails",
       name: "Tic Tac Toe",
       detail:

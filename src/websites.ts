@@ -48,7 +48,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Profile-Card-Component.png",
+      imgSrc: "/assets/captures/profile-card-component.png",
       detailsClass: "evenDetails ",
       name: "Profile Card Component",
       detail:
@@ -68,7 +68,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Social-Proof-Section.png",
+      imgSrc: "/assets/captures/social-proof-section.png",
       detailsClass: "evenDetails ",
       name: "Social Proof Section",
       detail:
@@ -78,7 +78,7 @@ export const websites = {
     },
     {
       imgClass: "oddImg",
-      imgSrc: "/assets/captures/Article-Preview-Component.png",
+      imgSrc: "/assets/captures/article-preview-component.png",
       detailsClass: "oddDetails ",
       name: "Article Preview Component",
       detail:
@@ -88,7 +88,7 @@ export const websites = {
     },
     {
       imgClass: " evenImg ",
-      imgSrc: "/assets/captures/Four-Card-Feature-Section.png",
+      imgSrc: "/assets/captures/four-card-feature-section.png",
       detailsClass: "evenDetails",
       name: "Four Card Feature Section  ",
       detail:
@@ -108,7 +108,7 @@ export const websites = {
     },
     {
       imgClass: " evenImg ",
-      imgSrc: "/assets/captures/Intro-Component-With-SignUp-Form.png",
+      imgSrc: "/assets/captures/intro-component-with-signUp-form.png",
       detailsClass: "evenDetails",
       name: "Intro Component With Sign Up Form ",
       detail:
@@ -128,7 +128,7 @@ export const websites = {
     },
     {
       imgClass: " evenImg ",
-      imgSrc: "/assets/captures/NFT-Preview-Card-Component.png",
+      imgSrc: "/assets/captures/nft-preview-card-component.png",
       detailsClass: "evenDetails",
       name: "NFT Preview Card Component",
       detail:
@@ -138,7 +138,7 @@ export const websites = {
     },
     {
       imgClass: "oddImg",
-      imgSrc: "/assets/captures/Ping-Coming-Soon-Page.png",
+      imgSrc: "/assets/captures/ping-coming-soon-page.png",
       detailsClass: "oddDetails ",
       name: "Ping Coming Soon Page ",
       detail:
@@ -148,7 +148,7 @@ export const websites = {
     },
     {
       imgClass: " evenImg ",
-      imgSrc: "/assets/captures/Huddle-Landing-Page.png",
+      imgSrc: "/assets/captures/huddle-landing-page.png",
       detailsClass: "evenDetails",
       name: "Huddle Landing Page",
       detail:
@@ -158,7 +158,7 @@ export const websites = {
     },
     {
       imgClass: "oddImg",
-      imgSrc: "/assets/captures/QR-Code-Component.png",
+      imgSrc: "/assets/captures/qr-code-component.png",
       detailsClass: "oddDetails ",
       name: "QR Code Component",
       detail:
@@ -168,7 +168,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Stats-Preview-Card-Component.png",
+      imgSrc: "/assets/captures/stats-preview-card-component.png",
       detailsClass: "evenDetails ",
       name: "Stats Preview Card",
       detail:
@@ -180,7 +180,7 @@ export const websites = {
   " Axiom Module A Projects": [
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/HTML-Form.png",
+      imgSrc: "/assets/captures/html-form.png",
       detailsClass: "oddDetails",
       name: "HTML Form",
       detail:
@@ -190,7 +190,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Seat-Selector.png",
+      imgSrc: "/assets/captures/seat-selector.png",
       detailsClass: "evenDetails",
       name: "Cinema Seat Selector",
       detail:
@@ -200,7 +200,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Custom-Video-Player.png",
+      imgSrc: "/assets/captures/custom-video-player.png",
       detailsClass: "oddDetails",
       name: "Custom Video Player",
       detail:
@@ -210,7 +210,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Exchange-Rate-Calculator.png",
+      imgSrc: "/assets/captures/exchange-rate-calculator.png",
       detailsClass: "evenDetails",
       name: "Exchange Rate Calculator",
       detail:
@@ -220,7 +220,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/DOM-Array.png",
+      imgSrc: "/assets/captures/dom-array.png",
       detailsClass: "oddDetails",
       name: "DOM Array",
       detail:
@@ -230,7 +230,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Landing-Page.png",
+      imgSrc: "/assets/captures/landing-page.png",
       detailsClass: "evenDetails",
       name: " Landing Page",
       detail:
@@ -240,7 +240,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Hangman.png",
+      imgSrc: "/assets/captures/hangman.png",
       detailsClass: "oddDetails",
       name: "Classic Hangman Game",
       detail:
@@ -249,7 +249,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Meal-Generator.png",
+      imgSrc: "/assets/captures/meal-generator.png",
       detailsClass: "evenDetails",
       name: " Meal Generator",
       detail:
@@ -259,7 +259,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Expense-Tracker.png",
+      imgSrc: "/assets/captures/expense-tracker.png",
       detailsClass: "oddDetails",
       name: "Expense Tracker",
       detail:
@@ -269,7 +269,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Music-Player.png",
+      imgSrc: "/assets/captures/music-player.png",
       detailsClass: "evenDetails",
       name: "Music Player",
       detail:
@@ -279,7 +279,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Infinite-Scrolling-App.png",
+      imgSrc: "/assets/captures/infinite-scrolling-app.png",
       detailsClass: "oddDetails",
       name: "Infinite Scrolling App",
       detail:
@@ -289,7 +289,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Typing-Game.png",
+      imgSrc: "/assets/captures/typing-game.png",
       detailsClass: "evenDetails",
       name: "Typing Game",
       detail:
@@ -299,7 +299,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Memory-Card.png",
+      imgSrc: "/assets/captures/memory-card.png",
       detailsClass: "oddDetails",
       name: "Memory Card",
       detail:
@@ -309,7 +309,7 @@ export const websites = {
     },
     {
       imgClass: "evenImg",
-      imgSrc: "/assets/captures/Web-to-Speech.png",
+      imgSrc: "/assets/captures/web-to-speech.png",
       detailsClass: "evenDetails",
       name: "Web to Speech",
       detail:
@@ -350,7 +350,7 @@ export const websites = {
     },
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/Tic-Tac-Toe.png",
+      imgSrc: "/assets/captures/tic-tac-toe.png",
       detailsClass: "oddDetails",
       name: "Tic Tac Toe",
       detail:

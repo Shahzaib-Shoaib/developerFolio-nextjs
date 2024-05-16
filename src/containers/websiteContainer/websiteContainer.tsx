@@ -1,11 +1,17 @@
 import { websites } from "@/websites";
 import "./style.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faDesktop,
+//   faTabletScreenButton,
+//   faMobileScreen,
+// } from "@fortawesome/free-solid-svg-icons";
 import {
-  faDesktop,
-  faTabletScreenButton,
-  faMobileScreen,
-} from "@fortawesome/free-solid-svg-icons";
+  FaDesktop,
+  FaTabletScreenButton,
+  FaMobileScreenButton,
+} from "react-icons/fa6";
+
 import { useContext } from "react";
 import StyleContext from "@/contexts/StyleContext";
 // className={
@@ -55,18 +61,9 @@ export default function WebsiteContainer() {
                           </h3>
                           <p className="platform">Web</p>
                           <p className="icons">
-                            <FontAwesomeIcon
-                              icon={faDesktop}
-                              className="icons"
-                            />
-                            <FontAwesomeIcon
-                              icon={faTabletScreenButton}
-                              className="icons"
-                            />
-                            <FontAwesomeIcon
-                              icon={faMobileScreen}
-                              className="icons"
-                            />
+                            <FaDesktop className="icons" />
+                            <FaTabletScreenButton className="icons" />
+                            <FaMobileScreenButton className="icons" />
                           </p>
                           <p
                             className={

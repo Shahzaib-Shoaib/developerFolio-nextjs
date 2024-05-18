@@ -1,20 +1,19 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
-import {achievementSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { achievementSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Achievement() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!achievementSection.display) {
     return null;
   }
   return (
-
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="achievements">
-       <div className="achievement-main-div">
-           <div className="achievement-header">
+        <div className="achievement-main-div">
+          <div className="achievement-header">
             <h1
               className={
                 isDark
@@ -34,12 +33,13 @@ export default function Achievement() {
               {achievementSection.subtitle}
             </p>
           </div>
-        {/*   <div className="achievement-cards-div">
-            <h1>gfdgdfdfhghgdf</h1>
+          <div className="achievement-cards-div">
+            bobo
             {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <>
-                <AchievementCard
+                  {card.title}{" "}
+                  {/* <AchievementCard
                   key={i}
                   isDark={isDark}
                   cardInfo={{
@@ -48,12 +48,12 @@ export default function Achievement() {
                     image: card.image,
                     footer: card.footerLink
                   }}
-                />
+                /> */}
                 </>
               );
             })}
-          </div>*/}
-        </div> 
+          </div>
+        </div>
       </div>
     </Fade>
   );

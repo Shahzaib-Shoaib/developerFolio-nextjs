@@ -1,10 +1,6 @@
 import { websites } from "@/websites";
 import "./style.scss";
-// import {
-//   faDesktop,
-//   faTabletScreenButton,
-//   faMobileScreen,
-// } from "@fortawesome/free-solid-svg-icons";
+
 import {
   FaDesktop,
   FaTabletScreenButton,

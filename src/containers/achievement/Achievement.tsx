@@ -14,32 +14,35 @@ export default function Achievement() {
     <Fade bottom duration={1000} distance="20px">
                       <h1>Zitiiiiiiiiiiii1</h1>
 
-      <div className="" id="achievements">
+      <div className="" id="achievements"> 
+      {/* main */}
       <h1>Zitiiiiiiiiiiii2</h1>
 
-        <div className="achievement-main-div">
+        <div className="">
+        {/* achievement-main-div */}
         <h1>Zitiiiiiiiiiiii3</h1>
 
-          <div className="achievement-header">
+          <div className="">
+          {/* achievement-header */}
           <h1>Zitiiiiiiiiiiii4</h1>
 
             <h1
-              className={
-                isDark
-                  ? "dark-mode heading achievement-heading"
-                  : "heading achievement-heading"
-              }
+              // className={
+              //   isDark
+              //     ? "dark-mode heading achievement-heading"
+              //     : "heading achievement-heading"
+              // }
             >
                               <h1>Zitiiiiiiiiiiii5</h1>
 
               {achievementSection.title}
             </h1>
             <p
-              className={
-                isDark
-                  ? "dark-mode subTitle achievement-subtitle"
-                  : "subTitle achievement-subtitle"
-              }
+              // className={
+              //   isDark
+              //     ? "dark-mode subTitle achievement-subtitle"
+              //     : "subTitle achievement-subtitle"
+              // }
             >
               {achievementSection.subtitle}
             </p>

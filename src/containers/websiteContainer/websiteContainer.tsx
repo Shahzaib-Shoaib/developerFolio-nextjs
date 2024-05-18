@@ -1,6 +1,5 @@
 import { websites } from "@/websites";
 import "./style.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import {
 //   faDesktop,
 //   faTabletScreenButton,

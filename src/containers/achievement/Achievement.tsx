@@ -12,7 +12,6 @@ export default function Achievement() {
   return (
 
     <Fade bottom duration={1000} distance="20px">
-      <h1>dgdgfdhgfjdfjhjhhhhhhhhhhhhhhhhhhhhh</h1>
       <div className="main" id="achievements">
         <div className="achievement-main-div">
           <div className="achievement-header">
@@ -36,8 +35,11 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
+            <h1>gfdgdfdfhghgdf</h1>
             {achievementSection.achievementsCards.map((card, i) => {
               return (
+                <>
+                <h1>Zitiiiiiiiiiiii</h1>
                 <AchievementCard
                   key={i}
                   isDark={isDark}
@@ -48,6 +50,7 @@ export default function Achievement() {
                     footer: card.footerLink
                   }}
                 />
+                </>
               );
             })}
           </div>

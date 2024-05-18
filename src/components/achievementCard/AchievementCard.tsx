@@ -13,7 +13,8 @@ export default function AchievementCard({ cardInfo, isDark }: any) {
 
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
-      <div className="certificate-image-div">
+      {cardInfo.title}
+      {/* <div className="certificate-image-div">
         <img src={cardInfo.image.default.src} alt="Certificate" className="card-image"></img>
       </div>
       <div className="certificate-detail-div">
@@ -38,7 +39,7 @@ export default function AchievementCard({ cardInfo, isDark }: any) {
             </span>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

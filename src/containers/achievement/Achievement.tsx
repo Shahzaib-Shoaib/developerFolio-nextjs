@@ -34,12 +34,10 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            bobo
             {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <>
-                  {card.title}{" "}
-                  {/* <AchievementCard
+                  <AchievementCard
                   key={i}
                   isDark={isDark}
                   cardInfo={{
@@ -48,7 +46,7 @@ export default function Achievement() {
                     image: card.image,
                     footer: card.footerLink
                   }}
-                /> */}
+                />
                 </>
               );
             })}

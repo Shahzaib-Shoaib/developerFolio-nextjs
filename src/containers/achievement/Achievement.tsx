@@ -12,9 +12,17 @@ export default function Achievement() {
   return (
 
     <Fade bottom duration={1000} distance="20px">
+                      <h1>Zitiiiiiiiiiiii1</h1>
+
       <div className="main" id="achievements">
+      <h1>Zitiiiiiiiiiiii2</h1>
+
         <div className="achievement-main-div">
+        <h1>Zitiiiiiiiiiiii3</h1>
+
           <div className="achievement-header">
+          <h1>Zitiiiiiiiiiiii4</h1>
+
             <h1
               className={
                 isDark
@@ -22,6 +30,8 @@ export default function Achievement() {
                   : "heading achievement-heading"
               }
             >
+                              <h1>Zitiiiiiiiiiiii5</h1>
+
               {achievementSection.title}
             </h1>
             <p

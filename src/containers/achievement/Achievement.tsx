@@ -12,37 +12,24 @@ export default function Achievement() {
   return (
 
     <Fade bottom duration={1000} distance="20px">
-                      <h1>Zitiiiiiiiiiiii1</h1>
-
-      <div className="" id=""> 
-      {/* main */}
-      <h1>Zitiiiiiiiiiiii2</h1>
-
-        <div className="">
-        {/* achievement-main-div */}
-        <h1>Zitiiiiiiiiiiii3</h1>
-
-          <div className="">
-          {/* achievement-header */}
-          <h1>Zitiiiiiiiiiiii4</h1>
-
+      <div className="main" id="achievements">
+        <div className="achievement-main-div">
+          <div className="achievement-header">
             <h1
-              // className={
-              //   isDark
-              //     ? "dark-mode heading achievement-heading"
-              //     : "heading achievement-heading"
-              // }
+              className={
+                isDark
+                  ? "dark-mode heading achievement-heading"
+                  : "heading achievement-heading"
+              }
             >
-                              <h1>Zitiiiiiiiiiiii5</h1>
-
               {achievementSection.title}
             </h1>
             <p
-              // className={
-              //   isDark
-              //     ? "dark-mode subTitle achievement-subtitle"
-              //     : "subTitle achievement-subtitle"
-              // }
+              className={
+                isDark
+                  ? "dark-mode subTitle achievement-subtitle"
+                  : "subTitle achievement-subtitle"
+              }
             >
               {achievementSection.subtitle}
             </p>
@@ -66,17 +53,9 @@ export default function Achievement() {
                 </>
               );
             })}
-                        <h1>gfdgdfdfhghgdf</h1>
-
           </div>
-          <h1>gfdgdfdfhghgdf</h1>
-
         </div>
-        <h1>gfdgdfdfhghgdf</h1>
-
       </div>
-      <h1>gfdgdfdfhghgdf</h1>
-
     </Fade>
   );
 }

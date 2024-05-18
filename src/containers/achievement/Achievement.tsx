@@ -13,8 +13,8 @@ export default function Achievement() {
 
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="achievements">
-        <div className="achievement-main-div">
-          <div className="achievement-header">
+       <div className="achievement-main-div">
+           <div className="achievement-header">
             <h1
               className={
                 isDark
@@ -34,12 +34,11 @@ export default function Achievement() {
               {achievementSection.subtitle}
             </p>
           </div>
-          <div className="achievement-cards-div">
+        {/*   <div className="achievement-cards-div">
             <h1>gfdgdfdfhghgdf</h1>
             {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <>
-                <h1>Zitiiiiiiiiiiii</h1>
                 <AchievementCard
                   key={i}
                   isDark={isDark}
@@ -53,8 +52,8 @@ export default function Achievement() {
                 </>
               );
             })}
-          </div>
-        </div>
+          </div>*/}
+        </div> 
       </div>
     </Fade>
   );

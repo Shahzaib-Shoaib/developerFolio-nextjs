@@ -18,6 +18,34 @@ export const websites = {
         "Fester Ecommerce Store made with Next.js, Tailwind CSS and Rest API. A project theme from themeforest.",
       linkUrl: "https://babuska-924622.vercel.app/",
     },
+
+    {
+      imgClass: " oddImg ",
+      imgSrc: "/assets/captures/ecommerce-page.png",
+      detailsClass: "oddDetails",
+      name: "Ecommerce Store",
+      detail:
+        "Modern Ecommerce Project made with Next.JS, Tailwind CSS and Shopify Storefront API.",
+      linkUrl: "minmin-924622.vercel.app",
+    },
+    {
+      imgClass: " evenImg ",
+      imgSrc: "/assets/captures/github-finder.png",
+      detailsClass: "evenDetails",
+      name: "Github Finder",
+      detail:
+        "Github Finder made with HTML,CSS,React JS and API. A project from Axiom FSD Module-B.",
+      linkUrl: "https://fester-924622-github-finder.netlify.app/",
+    },
+    {
+      imgClass: " oddImg ",
+      imgSrc: "/assets/captures/react-meetups.png",
+      detailsClass: "oddDetails",
+      name: "Meetups Page",
+      detail:
+        "Meetups Page made with HTML,CSS,React JS and Firebase. A project idea from Academind React Crash Course.",
+      linkUrl: "https://fester-924622-react-meetups.netlify.app/",
+    },
     // {
     //   imgClass: " oddImg ",
     //   imgSrc: "/assets/captures/.png",

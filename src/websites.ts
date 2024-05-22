@@ -26,7 +26,7 @@ export const websites = {
       name: "Ecommerce Store",
       detail:
         "Modern Ecommerce Project made with Next.JS, Tailwind CSS and Shopify Storefront API.",
-      linkUrl: "minmin-924622.vercel.app",
+      linkUrl: "https://minmin-924622.vercel.app/",
     },
     {
       imgClass: " evenImg ",

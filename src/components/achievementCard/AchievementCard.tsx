@@ -1,7 +1,10 @@
 import React from "react";
 import "./AchievementCard.scss";
+import Link from "next/link";
 
 export default function AchievementCard({cardInfo, isDark}) {
+  console.log(cardInfo);
+  
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL for ${name} not found`);
@@ -12,11 +15,12 @@ export default function AchievementCard({cardInfo, isDark}) {
   }
 
   return (
+    <><Link href={cardInfo.footer[0].url}>
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       {/* <div className="certificate-image-div">
         <img
-          src={cardInfo.image}
-          alt={cardInfo.imageAlt || "Card Thumbnail"}
+          src={cardInfo.image.default.src}
+          alt={cardInfo.title || "Card Thumbnail"}
           className="card-image"
         ></img>
       </div> */}
@@ -46,6 +50,6 @@ export default function AchievementCard({cardInfo, isDark}) {
           );
         })}
       </div> */}
-    </div>
+    </div></Link></>
   );
 }

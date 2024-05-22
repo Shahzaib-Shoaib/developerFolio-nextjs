@@ -181,22 +181,22 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section  // CHANGED!!!!!!!!!!!
   experience: [
-    {
-      role: "Web Developer",
-      company: "CodeSoft",
-      companylogo: require("@/assets/images/codsoft.png"),
-      date: "January 2024 – Present",
-      desc: "Remote / Virtual Internship",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      // ],
-    },
+    // {
+    //   role: "Web Developer",
+    //   company: "CodeSoft",
+    //   companylogo: require("@/assets/images/codsoft.png"),
+    //   date: "January 2024 – Present",
+    //   desc: "Remote / Virtual Internship",
+    //   // descBullets: [
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   // ],
+    // },
 
     {
       role: "Front-End Web Developer",
-      company: "Paintigo",
-      companylogo: require("@/assets/images/logo-paintigo.png"),
+      company: "AHST Vision LTD",
+      companylogo: require("@/assets/images/logo-ahst.jpg"),
       date: "January 2023 – Present",
       desc: "Remote / Part Time",
     },

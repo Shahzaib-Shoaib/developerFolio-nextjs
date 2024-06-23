@@ -2,17 +2,25 @@ export const websites = {
   " React & Next JS Websites": [
     {
       imgClass: " oddImg ",
-      imgSrc: "/assets/captures/paintigo.png",
+      imgSrc: "/assets/captures/video-uploader.png",
       detailsClass: "oddDetails",
+      name: "Video Uploader",
+      detail: `Video Uploader made with Next JS, Tailwind CSS and Firebase. Credentials: admin@123.com || admin123`,
+      linkUrl: "https://video-uploader-flax.vercel.app/",
+    },
+    {
+      imgClass: " evenImg ",
+      imgSrc: "/assets/captures/paintigo.png",
+      detailsClass: "evenDetails",
       name: "Paintigo",
       detail:
         "Paintigo Website made with Next.js, Tailwind CSS and Shopify Storefront API.",
       linkUrl: "https://www.paintigo.com/",
     },
     {
-      imgClass: " evenImg ",
+      imgClass: " oddImg ",
       imgSrc: "/assets/captures/fester-commerce.png",
-      detailsClass: "evenDetails",
+      detailsClass: "oddDetails",
       name: " Fester Ecommerce Store",
       detail:
         "Fester Ecommerce Store made with Next.js, Tailwind CSS and Rest API. A project theme from themeforest.",
@@ -20,40 +28,33 @@ export const websites = {
     },
 
     {
-      imgClass: " oddImg ",
+      imgClass: " evenImg ",
       imgSrc: "/assets/captures/ecommerce-page.png",
-      detailsClass: "oddDetails",
+      detailsClass: "evenDetails",
       name: "Ecommerce Store",
       detail:
         "Modern Ecommerce Project made with Next.JS, Tailwind CSS and Shopify Storefront API.",
       linkUrl: "https://minmin-924622.vercel.app/",
     },
     {
-      imgClass: " evenImg ",
+      imgClass: " oddImg ",
       imgSrc: "/assets/captures/github-finder.png",
-      detailsClass: "evenDetails",
+      detailsClass: "oddDetails",
       name: "Github Finder",
       detail:
         "Github Finder made with HTML,CSS,React JS and API. A project from Axiom FSD Module-B.",
       linkUrl: "https://fester-924622-github-finder.netlify.app/",
     },
     {
-      imgClass: " oddImg ",
+      imgClass: " evenImg ",
       imgSrc: "/assets/captures/react-meetups.png",
-      detailsClass: "oddDetails",
+      detailsClass: "evenDetails",
       name: "Meetups Page",
       detail:
         "Meetups Page made with HTML,CSS,React JS and Firebase. A project idea from Academind React Crash Course.",
       linkUrl: "https://fester-924622-react-meetups.netlify.app/",
     },
-    // {
-    //   imgClass: " oddImg ",
-    //   imgSrc: "/assets/captures/.png",
-    //   detailsClass: "oddDetails",
-    //   name: " ",
-    //   detail: "",
-    //   linkUrl: "",
-    // },
+
     // {
     //   imgClass: " evenImg ",
     //   imgSrc: "/assets/captures/.png",

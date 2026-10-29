@@ -33,7 +33,8 @@ export default function WebsiteContainer() {
                       : "subTitle skills-text-subtitle text-center tag-line"
                   }
                 >
-                  Here are my {category}
+                  A selection of my software development projects, applications,
+                  and professional work.{" "}
                 </p>
               </div>
               <div className="project-container">

@@ -19,12 +19,12 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Shahzaib Shoaib",
+  username: " Shahzaib ",
   title: "Hi, I'm Shahzaib",
   subTitle:
-    "A passionate Front End Web Developer 🚀 having an experience of building Web and Mobile websites with JavaScript / Reactjs / Nodejs / Next.js  and some other cool libraries and frameworks.",
-  resumeLink:
-    "https://drive.google.com/file/d/1M3XOZj8yfFtHFx_nxqy6YXK4nmejfBUl/view?usp=sharing", // Set to empty to hide the button
+    "I'm a software developer with professional experience building web applications, e-commerce platforms, and API integrations using technologies like Next.js, React, and Shopify. ",
+  // I'm now expanding my focus toward Python, Data Engineering, AI, and SaaS development. I enjoy solving real-world problems, exploring new technologies, and building software that makes things easier and more efficient
+  resumeLink: "", // Set to empty to hide the button
   websiteLink: "/websites", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
@@ -36,11 +36,11 @@ const socialMediaLinks = {
   linkedin: "www.linkedin.com/in/shahzaib-shoaib-70436128b",
   gmail: "fester9484@gmail.com",
   gitlab: "",
-  facebook: "https://www.facebook.com/profile.php?id=100089108027329",
+  facebook: "",
   medium: "",
   stackoverflow: "",
-  instagram: "https://www.instagram.com/fester_9484/",
-  twitter: "https://twitter.com/FesterCodes",
+  instagram: "",
+  twitter: "",
   kaggle: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -51,72 +51,134 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE DEVELOPMENT, DATA & AUTOMATION",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile websites",
-    // "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    "⚡ Building web applications, e-commerce platforms, and API integrations using modern technologies.",
+    "⚡ Working with Python, data processing, and automation while developing deeper skills in data engineering.",
 
-    "⚡ Integration of third party services such as Firebase/ Netlify / Vercel",
+    "⚡ Exploring AI-powered applications, business automation, and subscription-based software products.",
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
+  // softwareSkills: [
+  //   // {
+  //   //   skillName: "JavaScript",
+  //   //   fontAwesomeClassname: "fab fa-js",
+  //   // },
+  //   // {
+  //   //   skillName: "reactjs",
+  //   //   fontAwesomeClassname: "fab fa-react",
+  //   // },
+  //   // {
+  //   //   skillName: "nodejs",
+  //   //   fontAwesomeClassname: "fab fa-node",
+  //   // },
+  //   // // {
+  //   // //   skillName: "swift",
+  //   // //   fontAwesomeClassname: "fab fa-swift"
+  //   // // },
+
+  //   // // {
+  //   // //   skillName: "sql-database",
+  //   // //   fontAwesomeClassname: "fas fa-database"
+  //   // // },
+  //   // // {
+  //   // //   skillName: "aws",
+  //   // //   fontAwesomeClassname: "fab fa-aws"
+  //   // // },
+
+  //   // {
+  //   //   skillName: "Shopify",
+  //   //   fontAwesomeClassname: "fab fa-shopify",
+  //   // },
+  //   // {
+  //   //   skillName: "python",
+  //   //   fontAwesomeClassname: "fab fa-python",
+  //   // },
+  //   // // {
+  //   // //   skillName: "docker",
+  //   // //   fontAwesomeClassname: "fab fa-docker"
+  //   // // }
+
+  //   {
+  //     className: "fab fa-python",
+  //     name: "Python",
+  //   },
+  //   {
+  //     className: "fab fa-js",
+  //     name: "JavaScript",
+  //   },
+  //   {
+  //     className: "fab fa-react",
+  //     name: "React",
+  //   },
+  //   {
+  //     className: "fas fa-code",
+  //     name: "Next.js",
+  //   },
+  //   {
+  //     className: "fab fa-shopify",
+  //     name: "Shopify",
+  //   },
+  //   {
+  //     className: "fas fa-table",
+  //     name: "Pandas",
+  //   },
+  //   {
+  //     className: "fas fa-chart-line",
+  //     name: "NumPy",
+  //   },
+  //   {
+  //     className: "fas fa-database",
+  //     name: "Apache Spark",
+  //   },
+  //   {
+  //     className: "fas fa-server",
+  //     name: "Databricks",
+  //   },
+  // ],
+
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5",
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
     },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt",
-    },
-
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node",
-    },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm",
-    },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-code",
     },
     {
       skillName: "Shopify",
       fontAwesomeClassname: "fab fa-shopify",
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python",
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-table",
     },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
+    {
+      skillName: "NumPy",
+      fontAwesomeClassname: "fas fa-chart-line",
+    },
+    {
+      skillName: "Apache Spark",
+      fontAwesomeClassname: "fas fa-database",
+    },
+    {
+      skillName: "Databricks",
+      fontAwesomeClassname: "fas fa-server",
+    },
   ],
+
   display: true, // Set false to hide this section, defaults to true
 };
 
@@ -125,30 +187,38 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Happy Palace Group Of Schools",
-      logo: require("@/assets/images/download.jpg"),
-      subHeader: "Matriculation in Computer Science",
-      duration: "April 2015 - March 2020",
-      // desc: "Participated in the research of XXX and published 3 papers."
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    },
-    {
-      schoolName: "Adamjee Govt. Science College",
-      logo: require("@/assets/images/download (1).jpg"),
-      subHeader: "Intermediate in Computer Science",
-      duration: "October 2020 - August 2022 ",
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    },
+    // {
+    //   schoolName: "Happy Palace Group Of Schools",
+    //   logo: require("@/assets/images/download.jpg"),
+    //   subHeader: "Matriculation in Computer Science",
+    //   duration: "April 2015 - March 2020",
+    //   // desc: "Participated in the research of XXX and published 3 papers."
+    //   // descBullets: [
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    //   // ]
+    // },
+    // {
+    //   schoolName: "Adamjee Govt. Science College",
+    //   logo: require("@/assets/images/download (1).jpg"),
+    //   subHeader: "Intermediate in Computer Science",
+    //   duration: "October 2020 - August 2022 ",
+    //   // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
+    //   // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // },
     {
       schoolName: "University Of Karachi - UBIT",
       logo: require("@/assets/images/download (2).jpg"),
       subHeader: "Bachelor of Science in Software Engineering",
-      duration: "February 2023 - Present",
+      duration: "February 2023 - 2025",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "College Of DuPage",
+      logo: require("@/assets/images/cod.png"),
+      subHeader: "Associate in Science",
+      duration: "August 2025 - Present",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
@@ -158,7 +228,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -197,17 +267,16 @@ const workExperiences = {
       role: "Front-End Web Developer",
       company: "AHST Vision LTD",
       companylogo: require("@/assets/images/logo-ahst.jpg"),
-      date: "January 2023 – Present",
+      date: "January 2023 – January 2025",
       desc: "Remote / Part Time",
     },
 
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+    {
+      role: "Freelance Software Developer ",
+      company: "Fiverr",
+      companylogo: require("@/assets/images/fiv.jpg"),
+      date: "April 2021 – Present",
+    },
   ],
 };
 
@@ -258,7 +327,7 @@ const bigProjects = {
 const achievementSection = {
   title: "Achievements And Certifications 🏆 ",
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional certifications in software development, Python, and emerging technologies.",
 
   achievementsCards: [
     {
@@ -277,133 +346,123 @@ const achievementSection = {
         },
       ],
     },
-    {
-      title: "Meta React Native Specialization",
-      subtitle: "Completed Specialization from Meta for React Native",
-      image: require("@/assets/images/mrns.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/4DCAN8X7XRYU",
-        },
-      ],
-    },
-    {
-      title: "The Fundamentals of Digital Marketing",
-      subtitle:
-        "Completed Certification from Google Digital Garage for Fundamentals of digital marketing",
-      image: require("@/assets/images/digitalMarketing.png"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1IaVU_lcHC8TCEcOaBH8lPzdmuvstrpI9/view?usp=sharing",
-        },
-      ],
-    },
-    {
-      title: "Introduction to Front-End Development",
-      subtitle:
-        "Completed Certification from Meta for Introduction to Front-End Development",
-      image: require("@/assets/images/ifed.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/SE4X6TKZ6GGF",
-        },
-      ],
-    },
-    {
-      title: "Programming with JavaScript",
-      subtitle:
-        "Completed Certification from Meta for Programming with JavaScript",
-      image: require("@/assets/images/pwj.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/M8Y27UBY8ER3",
-        },
-      ],
-    },
-    {
-      title: "Version Control",
-      subtitle: "Completed Certification from Meta for Version Control",
-      image: require("@/assets/images/vc.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/SDSDA7AS24ZK",
-        },
-      ],
-    },
-    {
-      title: "HTML and CSS in depth",
-      subtitle: "Completed Certification from Meta for HTML and CSS in depth",
-      image: require("@/assets/images/hacid.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/XW35JBDGSY5B",
-        },
-      ],
-    },
-    {
-      title: "React Basics",
-      subtitle: "Completed Certification from Meta for React Basics",
-      image: require("@/assets/images/rb.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/LYB9U7A4PKJG",
-        },
-      ],
-    },
-    {
-      title: "Advanced React",
-      subtitle: "Completed Certification from Meta for Advanced React",
-      image: require("@/assets/images/ar.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/BS3XJ2YR27VH",
-        },
-      ],
-    },
-    {
-      title: "Principles of UX/UI Design",
-      subtitle:
-        "Completed Certification from Meta for Principles of UX/UI Design",
-      image: require("@/assets/images/uiux.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/2HNA6AS9K6LD",
-        },
-      ],
-    },
-    {
-      title: "Front-End Developer Capstone",
-      subtitle:
-        "Completed Certification from Meta for Front-End Developer Capstone",
-      image: require("@/assets/images/fedc.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/VRAPTPE5QZ98",
-        },
-      ],
-    },
-    {
-      title: "Coding Interview Preparation",
-      subtitle:
-        "Completed Certification from Meta for Coding Interview Preparation",
-      image: require("@/assets/images/cip.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/458U9AAX3QSG",
-        },
-      ],
-    },
+
+    // {
+    //   title: "The Fundamentals of Digital Marketing",
+    //   subtitle:
+    //     "Completed Certification from Google Digital Garage for Fundamentals of digital marketing",
+    //   image: require("@/assets/images/digitalMarketing.png"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/1IaVU_lcHC8TCEcOaBH8lPzdmuvstrpI9/view?usp=sharing",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Introduction to Front-End Development",
+    //   subtitle:
+    //     "Completed Certification from Meta for Introduction to Front-End Development",
+    //   image: require("@/assets/images/ifed.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/SE4X6TKZ6GGF",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Programming with JavaScript",
+    //   subtitle:
+    //     "Completed Certification from Meta for Programming with JavaScript",
+    //   image: require("@/assets/images/pwj.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/M8Y27UBY8ER3",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Version Control",
+    //   subtitle: "Completed Certification from Meta for Version Control",
+    //   image: require("@/assets/images/vc.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/SDSDA7AS24ZK",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "HTML and CSS in depth",
+    //   subtitle: "Completed Certification from Meta for HTML and CSS in depth",
+    //   image: require("@/assets/images/hacid.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/XW35JBDGSY5B",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "React Basics",
+    //   subtitle: "Completed Certification from Meta for React Basics",
+    //   image: require("@/assets/images/rb.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/LYB9U7A4PKJG",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Advanced React",
+    //   subtitle: "Completed Certification from Meta for Advanced React",
+    //   image: require("@/assets/images/ar.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/BS3XJ2YR27VH",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Principles of UX/UI Design",
+    //   subtitle:
+    //     "Completed Certification from Meta for Principles of UX/UI Design",
+    //   image: require("@/assets/images/uiux.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/2HNA6AS9K6LD",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Front-End Developer Capstone",
+    //   subtitle:
+    //     "Completed Certification from Meta for Front-End Developer Capstone",
+    //   image: require("@/assets/images/fedc.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/VRAPTPE5QZ98",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Coding Interview Preparation",
+    //   subtitle:
+    //     "Completed Certification from Meta for Coding Interview Preparation",
+    //   image: require("@/assets/images/cip.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/458U9AAX3QSG",
+    //     },
+    //   ],
+    // },
     {
       title: "Python for Data Science, AI & Development",
       subtitle:
@@ -432,50 +491,61 @@ const achievementSection = {
       ],
     },
     {
-      title: "Introduction to Mobile Development",
-      subtitle:
-        "Completed Certification from Meta for Introduction to Mobile Development",
-      image: require("@/assets/images/imd.jpeg"),
+      title: "Meta React Native Specialization",
+      subtitle: "Completed Specialization from Meta for React Native",
+      image: require("@/assets/images/mrns.jpeg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/MG95GGJTXLDG",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/4DCAN8X7XRYU",
         },
       ],
     },
-    {
-      title: "React Native",
-      subtitle: "Completed Certification from Meta for React Native",
-      image: require("@/assets/images/rn.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/ZZAWWH9BRJUP",
-        },
-      ],
-    },
-    {
-      title: "Working with Data",
-      subtitle: "Completed Certification from Meta for Working with Data",
-      image: require("@/assets/images/wwd.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/VKTKUV76NQE2",
-        },
-      ],
-    },
-    {
-      title: "Capstone (React App)",
-      subtitle: "Completed Certification from Meta for Capstone (React App)",
-      image: require("@/assets/images/cra.jpeg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.coursera.org/account/accomplishments/certificate/R79JTWUTBEM7",
-        },
-      ],
-    },
+    // {
+    //   title: "Introduction to Mobile Development",
+    //   subtitle:
+    //     "Completed Certification from Meta for Introduction to Mobile Development",
+    //   image: require("@/assets/images/imd.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/MG95GGJTXLDG",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "React Native",
+    //   subtitle: "Completed Certification from Meta for React Native",
+    //   image: require("@/assets/images/rn.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/ZZAWWH9BRJUP",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Working with Data",
+    //   subtitle: "Completed Certification from Meta for Working with Data",
+    //   image: require("@/assets/images/wwd.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/VKTKUV76NQE2",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Capstone (React App)",
+    //   subtitle: "Completed Certification from Meta for Capstone (React App)",
+    //   image: require("@/assets/images/cra.jpeg"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://www.coursera.org/account/accomplishments/certificate/R79JTWUTBEM7",
+    //     },
+    //   ],
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -536,8 +606,8 @@ const podcastSection = {
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-##########",
+    "Interested in collaborating on a project, discussing a software development opportunity, or exploring ideas in Python, data engineering, and AI? Feel free to reach out. I'm always open to connecting and discussing new opportunities.",
+  number: "+1-630-259-3653",
   email_address: "fester9484@gmail.com",
 };
 

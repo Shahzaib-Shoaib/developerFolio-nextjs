@@ -82,6 +82,7 @@ export default function DisplayLottie({
     <Lottie
       options={defaultOptions}
       isClickToPauseDisabled={true}
+      eventListeners={[]}
     />
   );
 }

@@ -1,20 +1,52 @@
-import React, { Component, Suspense } from "react";
-import Lottie from "react-lottie";
+// import React, { Component, Suspense } from "react";
+// import Lottie from "react-lottie";
+// import Loading from "../../containers/loading/Loading";
+
+// export default class DisplayLottie extends Component<{ animationData: any }> {
+//   render() {
+//     const animationData = this.props.animationData;
+//     const defaultOptions = {
+//       loop: true,
+//       autoplay: true,
+//       animationData: animationData
+//     };
+
+//     return (
+//       <Suspense fallback={<Loading />}>
+//         <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+//       </Suspense>
+//     );
+//   }
+// }
+
+"use client";
+
+import React, { Component } from "react";
+import dynamic from "next/dynamic";
 import Loading from "../../containers/loading/Loading";
 
-export default class DisplayLottie extends Component<{ animationData: any }> {
+const Lottie = dynamic(() => import("react-lottie"), {
+  ssr: false,
+  loading: () => <Loading />,
+});
+
+export default class DisplayLottie extends Component<{
+  animationData: any;
+}> {
   render() {
     const animationData = this.props.animationData;
+
     const defaultOptions = {
       loop: true,
       autoplay: true,
-      animationData: animationData
+      animationData: animationData,
     };
 
     return (
-      <Suspense fallback={<Loading />}>
-        <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
-      </Suspense>
+      <Lottie
+        options={defaultOptions}
+        isClickToPauseDisabled={true}
+      />
     );
   }
 }

@@ -7,7 +7,7 @@ import splashAnimation from "./../public/assets/lottie/splashAnimation.json"; //
 // Splash Screen
 
 const splashScreen = {
-  enabled: false, // set false to disable splash screen
+  enabled: true, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000, // Set animation duration as per your animation
 };
@@ -15,7 +15,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: false, // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {

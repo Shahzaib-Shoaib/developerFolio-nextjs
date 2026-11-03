@@ -7,7 +7,7 @@ import splashAnimation from "./../public/assets/lottie/splashAnimation.json"; //
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000, // Set animation duration as per your animation
 };
@@ -15,7 +15,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true, // Set to false to use static SVG
+  animated: false, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -284,7 +284,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false, // Set false to hide this section, defaults to true            CHANGED!!!!!!!!!!
 };
 
